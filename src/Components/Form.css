@@ -1,0 +1,77 @@
+form {
+  padding: 32px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(135deg, #e3f0ff 0%, #f9f9f9 100%);
+  border-radius: 16px;
+  max-width: 420px;
+  margin: 32px auto;
+  box-shadow: 0 8px 32px rgba(30, 60, 90, 0.12), 0 1.5px 6px rgba(30, 60, 90, 0.08);
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #1a237e;
+  letter-spacing: 0.5px;
+  font-size: 15px;
+}
+
+input {
+  border: 1.5px solid #b0bec5;
+  padding: 10px 12px;
+  border-radius: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 8px;
+  font-size: 15px;
+  background: #fff;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus {
+  border-color: #1976d2;
+  box-shadow: 0 0 0 2px #bbdefb;
+  outline: none;
+}
+
+
+button[type="submit"] {
+  background: linear-gradient(90deg, #1976d2 60%, #64b5f6 100%);
+  color: #fff;
+  padding: 12px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.12);
+}
+
+
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #115293 60%, #1976d2 100%);
+  box-shadow: 0 4px 16px rgba(25, 118, 210, 0.18);
+  transform: translateY(-2px) scale(1.03);
+}
+
+select {
+  width: 100%;
+  padding: 15px;
+  border: 2px solid #e1e8ed;
+  border-radius: 12px;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  background: #fff;
+  color: #2c3e50;
+  outline: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  appearance: none;
+  background-image:
+    url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%204%205'%3E%3Cpath%20fill='%23667eea'%20d='M2%205L0%200h4z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 10px;
+}
